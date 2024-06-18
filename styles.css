@@ -9,13 +9,16 @@ body {
     flex-direction: column;
     height: 100vh;
     overflow: hidden;
+    background-color: #000000;
 }
 
 input {
     display: none;
+    background-color: white;
 }
 
 label{
+    background-color: rgb(240, 240, 240);
     border: 1px solid grey;
     border-radius: 10px;
     padding: 5px 10px;
@@ -24,16 +27,22 @@ label{
 }
 
 label:hover{
-    background-color: rgb(214, 214, 214);
+    background-color: white;
     cursor: pointer;
 }
 
-.header {
+#header {
+    margin-top: 20px;
     margin-bottom: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 0.4rem;
+}
+
+.text {
+    color: white;
+    font-size: 1rem;
 }
 
 #visualizer {
