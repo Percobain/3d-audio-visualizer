@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+}
+
+input {
+    display: none;
+}
+
+label{
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 5px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.2s background-color;
+}
+
+label:hover{
+    background-color: rgb(214, 214, 214);
+    cursor: pointer;
+}
+
+.header {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+.visualizer {
+    cursor: pointer;
+    flex: 1;
+}
+
